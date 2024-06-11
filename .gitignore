@@ -39,4 +39,5 @@ target
 out
 pnpmfile.js
 .npmrc
-frontend/generated
+frontend/generateds
+src/main/java/kolibri
