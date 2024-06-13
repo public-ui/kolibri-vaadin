@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f211b17-166a-40eb-a86c-494444f8a1bf" name="Changes" comment="">
+    <list default="true" id="2f211b17-166a-40eb-a86c-494444f8a1bf" name="Changes" comment="Add Intellij specific files to Git">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/vaadin.js" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/vaadin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolibri-vaadin.iws" beforeDir="false" afterPath="$PROJECT_DIR$/kolibri-vaadin.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,7 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ModuleEditorState">
@@ -98,7 +101,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "6365-kolibri-adapter-components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -193,14 +200,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718263273976</updated>
-      <workItem from="1718263274435" duration="97000" />
+      <workItem from="1718263274435" duration="1131000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Intellij specific files to Git">
+      <option name="closed" value="true" />
+      <created>1718263430162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718263430162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Intellij specific files to Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Intellij specific files to Git" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

@@ -4,7 +4,7 @@ const { rimraf, rimrafSync, native, nativeSync } = require('rimraf');
 const ELEMENTS = require('@public-ui/components/custom-elements.json');
 const PACKAGE_JSON = require('@public-ui/components/package.json');
 
-const FILE_HEAD = `package com.example.adapters;
+const FILE_HEAD = `package io.github.public_ui.kolibriVaadinAdapter;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;
@@ -15,7 +15,7 @@ import java.util.Optional;
 
 `;
 
-const LOCATION = path.resolve(__dirname, '../', 'src/main/java/kolibri');
+const LOCATION = path.resolve(__dirname, '../', 'src/main/java/io/github/public_ui/kolibriVaadinAdapter');
 
 console.log('LOCATION', LOCATION);
 
