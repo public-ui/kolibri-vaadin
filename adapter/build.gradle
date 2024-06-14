@@ -1,0 +1,21 @@
+plugins {
+	id "com.github.node-gradle.node" version "7.0.2"
+}
+
+node {
+	version = '20.14.0'
+	pnpmVersion = "9.3.0"
+	download = true
+}
+
+task pnpmBbuild() {
+	dependsOn pnpmInstall
+	//inputs.file 'vaadin.js'
+	//inputs.file 'package.json'
+	//inputs.file 'pnpm-lock.yml'
+
+	commandLine 'pnpm', 'build'
+	//outputs.dir 'build'
+}
+
+//build.dependsOn pnpm_build
