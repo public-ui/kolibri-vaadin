@@ -84,6 +84,9 @@ ELEMENTS.tags.forEach((tag) => {
 `;
 	file += `@Tag("${tag.name}")
 @NpmPackage(value = "${PACKAGE_JSON.name}", version = "${PACKAGE_JSON.version}")
+@NpmPackage(value = "@public-ui/themes", version = "2.1.2")
+@NpmPackage(value = "@stencil/core", version = "4.18.3")
+@JsModule("./src/kolibri-init.ts")
 @JsModule("${PACKAGE_JSON.name}/dist/components/${tag.name}")
 `;
 	file += `public class ${pascalCase(tag.name)} extends Component {

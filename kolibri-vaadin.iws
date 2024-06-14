@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f211b17-166a-40eb-a86c-494444f8a1bf" name="Changes" comment="Add Intellij specific files to Git">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2f211b17-166a-40eb-a86c-494444f8a1bf" name="Changes" comment="Fix adapter Java package name">
       <change beforePath="$PROJECT_DIR$/adapter/vaadin.js" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/vaadin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kolibri-vaadin.iws" beforeDir="false" afterPath="$PROJECT_DIR$/kolibri-vaadin.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/MainView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +91,9 @@
       <profile-state />
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -107,9 +110,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/sd/Projects/kolibri-vaadin/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -200,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718263273976</updated>
-      <workItem from="1718263274435" duration="1131000" />
+      <workItem from="1718263274435" duration="10765000" />
     </task>
     <task id="LOCAL-00001" summary="Add Intellij specific files to Git">
       <option name="closed" value="true" />
@@ -210,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718263430162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix adapter Java package name">
+      <option name="closed" value="true" />
+      <created>1718265687335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718265687335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Intellij specific files to Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Intellij specific files to Git" />
+    <MESSAGE value="Fix adapter Java package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix adapter Java package name" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
