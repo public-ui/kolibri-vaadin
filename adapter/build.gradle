@@ -8,14 +8,8 @@ node {
 	download = true
 }
 
-task pnpmBbuild() {
+task adapterBuild(type: PnpmTask) {
+	dependsOn nodeSetup
 	dependsOn pnpmInstall
-	//inputs.file 'vaadin.js'
-	//inputs.file 'package.json'
-	//inputs.file 'pnpm-lock.yml'
-
-	commandLine 'pnpm', 'build'
-	//outputs.dir 'build'
+	args = ['run','build']
 }
-
-//build.dependsOn pnpm_build
