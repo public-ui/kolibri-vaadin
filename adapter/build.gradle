@@ -1,0 +1,15 @@
+plugins {
+	id "com.github.node-gradle.node" version "7.0.2"
+}
+
+node {
+	version = '20.14.0'
+	pnpmVersion = "9.3.0"
+	download = true
+}
+
+task adapterBuild(type: PnpmTask) {
+	dependsOn nodeSetup
+	dependsOn pnpmInstall
+	args = ['run','build']
+}

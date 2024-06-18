@@ -40,3 +40,5 @@ dependencyManagement {
 		mavenBom "com.vaadin:vaadin-bom:$vaadinVersion"
 	}
 }
+
+compileJava.dependsOn(':adapter:adapterBuild')

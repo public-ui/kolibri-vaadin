@@ -16,10 +16,10 @@ build/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+#.idea
 *.iws
-*.iml
-*.ipr
+#*.iml
+#*.ipr
 out/
 
 ### NetBeans ###
@@ -40,4 +40,4 @@ out
 pnpmfile.js
 .npmrc
 frontend/generated
-src/main/java/kolibri
+src/main/java/io/github/public_ui/kolibriVaadinAdapter

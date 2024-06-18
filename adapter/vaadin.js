@@ -4,7 +4,7 @@ const { rimraf, rimrafSync, native, nativeSync } = require('rimraf');
 const ELEMENTS = require('@public-ui/components/custom-elements.json');
 const PACKAGE_JSON = require('@public-ui/components/package.json');
 
-const FILE_HEAD = `package com.example.adapters;
+const FILE_HEAD = `package io.github.public_ui.kolibriVaadinAdapter;
 
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;
@@ -15,7 +15,7 @@ import java.util.Optional;
 
 `;
 
-const LOCATION = path.resolve(__dirname, '../', 'src/main/java/kolibri');
+const LOCATION = path.resolve(__dirname, '../', 'src/main/java/io/github/public_ui/kolibriVaadinAdapter');
 
 console.log('LOCATION', LOCATION);
 
@@ -84,6 +84,9 @@ ELEMENTS.tags.forEach((tag) => {
 `;
 	file += `@Tag("${tag.name}")
 @NpmPackage(value = "${PACKAGE_JSON.name}", version = "${PACKAGE_JSON.version}")
+@NpmPackage(value = "@public-ui/themes", version = "2.1.2")
+@NpmPackage(value = "@stencil/core", version = "4.18.3")
+@JsModule("./src/kolibri-init.ts")
 @JsModule("${PACKAGE_JSON.name}/dist/components/${tag.name}")
 `;
 	file += `public class ${pascalCase(tag.name)} extends Component {
